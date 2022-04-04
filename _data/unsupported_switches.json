@@ -1,0 +1,37 @@
+[
+  {
+    "vendor": "Compex", "model": "PS2216B", "rev": "1A",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316]", "eeprom": "N/A", "uc": "N/A",
+    "mgmt": "", "x8021q":  ""
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1016D][dlink_des1016d_c2]", "rev": "",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316]", "eeprom": "N/A", "uc": "N/A",
+    "mgmt": "", "x8021q":  ""
+  },
+  {
+    "vendor": "Edimax", "model": "ES-3116P", "rev": "Older(?)",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316]", "eeprom": "N/A", "uc": "N/A",
+    "mgmt": "", "x8021q":  ""
+  },
+  {
+    "vendor": "Edimax", "model": "ES-3116RL(B)", "rev": "Board: Rev.A, P/N: 1242-00000076-020	",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316]", "eeprom": "N/A", "uc": "N/A",
+    "mgmt": "", "x8021q":  ""
+  },
+  {
+    "vendor": "HardLink", "model": "HS-16RL	", "rev": "Board: Rev.A, P/N: 1242-00000076-020	",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316]", "eeprom": "N/A", "uc": "N/A",
+    "mgmt": "", "x8021q":  ""
+  }
+]

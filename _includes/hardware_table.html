@@ -1,0 +1,58 @@
+<div class="table_wrapper table_small">
+  <table><thead>
+    <tr>
+      <th colspan="3">Switch</th>
+      <th colspan="2">Ports</th>
+      <th colspan="2">EEPROM ID</th>
+      <th colspan="3">Hardware details</th>
+      <th colspan="2">Does work?</th>
+    </tr>
+    <tr>
+      <th>Vendor</th>
+      <th>Model</th>
+      <th>H/W rev.</th>
+      <th>100M</th>
+      <th>1G</th>
+      <th>vendor-id</th>
+      <th>chip-id</th>
+      <th>Chip</th>
+      <th>EEPROM</th>
+      <th>uC</th>
+      <th>MGMT</th>
+      <th>802.1Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for switch in include.switches %}
+    <tr>
+      <td>{{ switch.vendor }}</td>
+      <td>{{  switch.model | append: supported_switches_links | markdownify }}</td>
+      <td>{{ switch.rev | append: supported_switches_links | markdownify }}</td>
+      <td>
+        {% case switch.ports100m %}
+          {% when 0 %}
+            -
+          {% else %}
+            {{ switch.ports100m }}
+        {% endcase %}
+      </td>
+      <td>
+        {% case switch.ports1g %}
+          {% when 0 %}
+            -
+          {% else %}
+           {{ switch.ports1g }}
+        {% endcase %}
+      </td>
+      <td>{{ switch.eeprom_vendor_id }}</td>
+      <td>{{ switch.eeprom_chip_id }}</td>
+      <td>{{ switch.chip | append: supported_switches_links | markdownify }}</td>
+      <td>{{ switch.eeprom | append: supported_switches_links | markdownify }}</td>
+      <td>{{ switch.uc }}</td>
+      <td>{{ switch.mgmt | append: supported_switches_links | markdownify }}</td>
+      <td>{{ switch.x8021q }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  </table>
+  </div>

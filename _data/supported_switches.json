@@ -1,0 +1,275 @@
+[
+  {
+    "vendor": "Acorp", "model": "[HU16D][Acorp_HU16D]", "rev": "2.0",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "", "eeprom_chip_id": "",
+    "chip": "[RTL8316B]", "eeprom": "N/A?", "uc": "N/A?",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Acorp", "model": "[HU16DP][Acorp_HU16DP]", "rev": "?",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "N/A?", "uc": "N/A?",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "AirLive", "model": "Ether FSH2400NS", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C02][24C02](?)", "uc": "unknown(?)",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Asus", "model": "GigaX 1024 (GX1024)", "rev": "1.02",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "N/A?", "uc": "N/A?",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "No"
+  },
+  {
+    "vendor": "Asus", "model": "GigaX 1024 (GX1024)", "rev": "Newer(?)",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "[24C04]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Asus", "model": "[GigaX 1024I (GX1024I)]", "rev": "1.02",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C04]/[SOIC8]", "uc": "W78L516A24PL",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Asus", "model": "[GigaX 1024P (GX1024P)]", "rev": "1.03",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C04]/[SOIC8]", "uc": "W78L516A24PL",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Compex", "model": "[PS2216B]", "rev": "1B",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "[24C02]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Compex", "model": "[PS2216B]", "rev": "1C",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "[24C02]", "uc": "AT89C2051",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Compex", "model": "[PS2216B]", "rev": "1D",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "0x11f67001", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "[24C04]", "uc": "AT89C2051",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Compex", "model": "[PS2216B]", "rev": "6D",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "0x11f67004", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "[24C04]", "uc": "AT89C2051",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Compex", "model": "[PS2216B]", "rev": "6E",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "0x11f67005", "eeprom_chip_id": "0x000c",
+    "chip": "[RTL8316BP]", "eeprom": "[24C08]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Compex", "model": "SAS2224B", "rev": "any",
+    "ports100m": 24, "ports1g": "0-1",
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "?", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Compex", "model": "SXP1224B", "rev": "any",
+    "ports100m": 24, "ports1g": "0-2",
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "?", "uc": "?",
+    "mgmt": "[Can][howto_enable_rrcp_method2]", "x8021q":  "No"
+  },
+  {
+    "vendor": "Compex", "model": "SDS1224", "rev": "2A",
+    "ports100m": 24, "ports1g": "-",
+    "eeprom_vendor_id": "0x11f67002", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "[24C04]/[DIP8]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1016D][dlink_des1016d_d1]", "rev": "[D1][dlink_des1016d_d1]",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "",
+    "chip": "[RTL8316B]", "eeprom": "[24C02]/[DIP8]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1016D][dlink_des1016d_d2]", "rev": "[D2][dlink_des1016d_d2]",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "[24C02]/[DIP8]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1016D][dlink_des1016d_d4]", "rev": "[D4][dlink_des1016d_d4]",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "",
+    "chip": "[RTL8316B]", "eeprom": "[24C02]/[DIP8]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1024D][dlink_des1024d_b1]", "rev": "[B1][dlink_des1024d_b1]",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "No"
+  },
+  {
+    "vendor": "D-Link", "model": "[DES-1024D][dlink_des1024d_c1]", "rev": "[C1][dlink_des1024d_c1]",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "[24C02]/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "DES-1024D", "rev": "[C1 fixed][dlink_des1024d_c1_fixed]",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "DES-1024D", "rev": "C3",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "DES-1024D", "rev": "C4",
+    "ports100m": 24, "ports1g": "-",
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "[24C04]/[SOIC8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp_method2]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "D-Link", "model": "DES-1026G", "rev": "?",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "No"
+  },
+  {
+    "vendor": "D-Link", "model": "DSS-16+", "rev": "G3",
+    "ports100m": 16, "ports1g": "-",
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B][RTL8316B](?)", "eeprom": "?", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Edimax", "model": "[ES-3116P][Edimax_ES3116P]", "rev": "Newer(?)",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "Possible/[SOIC8]", "uc": "",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "IronLink", "model": "FS-1226GE", "rev": "?",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326][RTL8326](?)", "eeprom": "?", "uc": "?",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "No"
+  },
+  {
+    "vendor": "Micronet", "model": "SP616R", "rev": "?",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "Possible/[DIP8]", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Ovislink", "model": "Ether FSH2400R", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C02][24C02](?)", "uc": "N/A(?)",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Ovislink", "model": "Ether FSH2400RS", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C02][24C02](?)", "uc": "unknown(?)",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Ovislink", "model": "FSH2400N", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "?", "eeprom": "?", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "?"
+  },
+  {
+    "vendor": "Ovislink", "model": "FSH2400NS", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "?", "eeprom": "?", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "?"
+  },
+  {
+    "vendor": "Ovislink", "model": "FSH2402GT", "rev": "?",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "?", "uc": "?",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Planet", "model": "[FGSW-2620]", "rev": "2.1",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "[24C04]", "uc": "SM89516",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Repotec", "model": "WebSmart G3224W", "rev": "1.1",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "N/A", "uc": "TF-320-BCL",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Repotec", "model": "GigaSwitch G3224D", "rev": "1.0",
+    "ports100m": 24, "ports1g": 2,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8326]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "No"
+  },
+  {
+    "vendor": "Signamax", "model": "065-7531A", "rev": "?",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "0x43424140", "eeprom_chip_id": "0x0028",
+    "chip": "[RTL8316B]", "eeprom": "?", "uc": "N/A",
+    "mgmt": "Yes", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "TP-Link", "model": "TL-SF1024", "rev": "?",
+    "ports100m": 24, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8324]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  },
+  {
+    "vendor": "Zyxel", "model": "ES-116P", "rev": "1.0",
+    "ports100m": 16, "ports1g": 0,
+    "eeprom_vendor_id": "-", "eeprom_chip_id": "-",
+    "chip": "[RTL8316B]", "eeprom": "Possible/[DIP8]", "uc": "N/A",
+    "mgmt": "[Can][howto_enable_rrcp]", "x8021q":  "Yes"
+  }
+]

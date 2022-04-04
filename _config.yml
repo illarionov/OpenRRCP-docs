@@ -1,0 +1,38 @@
+title: OpenRRCP wiki
+baseurl: ""
+repository: illarionov/OpenRRCP
+url: "https://openrrcp.org.ru"
+
+theme: minima
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path:            "assets/**/*.pdf"
+    values:
+      sitemap:         false
+
+header_pages:
+  - rrcp.md
+  - hardware.md
+  - rrcp_features.md
+  - rrcp_security.md
+  - howto_enable_rrcp.md
+  - rrcpcli.md
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
