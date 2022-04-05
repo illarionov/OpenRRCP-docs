@@ -28,6 +28,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - Makefile
+  - configs
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

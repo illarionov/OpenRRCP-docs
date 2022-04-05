@@ -1,0 +1,46 @@
+#!/bin/bash -l
+
+set -eEu -o pipefail
+
+export GEM_HOME=$HOME/gems
+export PATH=$GEM_HOME/bin:$PATH
+
+TMP_GIT_CLONE="$HOME/tmp/openrrcp-docs"
+GEMFILE=$TMP_GIT_CLONE/Gemfile
+PUBLIC_WWW=/var/www/openrrcp.org.ru
+
+
+BRANCH=""
+
+while read oldrev newrev refname
+do
+  branch=$(git rev-parse --symbolic --abbrev-ref $refname 2>/dev/null)
+
+  if [ "main" = "$branch" ] || [ "triggerRebuild" = "$branch" ]; then
+    BRANCH="$branch"
+  fi
+
+done
+
+if [ -z "$BRANCH" ]; then
+    echo "Skipping deploy since the branch is not main or triggerRebuild"
+    exit 1
+fi
+
+rm -rf "$TMP_GIT_CLONE"
+
+trap "rm -Rf $TMP_GIT_CLONE" EXIT
+
+git clone -b main --depth 1 $GIT_DIR $TMP_GIT_CLONE
+
+pushd $TMP_GIT_CLONE
+
+BUNDLE_GEMFILE=$GEMFILE bundle install
+BUNDLE_GEMFILE=$GEMFILE make build
+
+find . -type f -regextype posix-extended -iregex '.*\.(css|csv|html?|js|svg|txt|xml|json)' -exec 7z a -bd -tgzip -mx=9 '{}'.gz '{}' \; > /dev/null
+
+rsync -av --delete-after _site/ "$PUBLIC_WWW"
+
+popd
+
