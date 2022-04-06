@@ -6,7 +6,8 @@ build:
 	bundle exec jekyll build
 
 clean:
-	rm -rf site
+	bundle exec jekyll clean
+	rm -rf .jekyll-cache
 
 serve:
 	bundle exec jekyll serve --livereload
