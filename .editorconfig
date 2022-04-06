@@ -18,6 +18,6 @@ trim_trailing_whitespace = false
 
 [{*.yaml,*.yml}]
 indent_size = 2
-github_username:  illarionov
+
 [{Makefile, *.mk}]
 indent_style = tab
